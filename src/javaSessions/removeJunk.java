@@ -5,7 +5,7 @@ public class removeJunk {
 	public static void main(String[] args) {
 
 
-		String str="@#$%^&*adsdsjnjhduihduids()(*(*&&^^%$%$#";
+		String str="@#$%^&*adsdsjnjhduihduids()(*(*&&^^ffhgfghfh%$%$#";
 		String result = str.replaceAll("[^a-zA-Z0-9]","");
 		System.out.println(result);
 		

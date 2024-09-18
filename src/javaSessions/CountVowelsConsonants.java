@@ -5,7 +5,8 @@ public class CountVowelsConsonants {
 	public static void main(String[] args) {
 
 		// CountConsonantsVowels("afrin riyaj fakir");
-		cleanString();
+		//cleanString();
+		CountConsonantsVowels("Automation");
 
 	}
 
@@ -32,10 +33,12 @@ public class CountVowelsConsonants {
 			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
 
 				vowels++;
+				System.out.println("Vowels :"+ch);
 
 			} else if (ch >= 'a' && ch <= 'z') {
 
 				consonants++;
+				System.out.println("Consonants :"+ch);
 			}
 
 		}

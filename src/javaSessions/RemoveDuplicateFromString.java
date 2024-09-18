@@ -4,7 +4,7 @@ public class RemoveDuplicateFromString {
 
 	public static void main(String[] args) {
 
-		String output=removeDuplicate("aafdfaaavf");
+		String output=removeDuplicate("aafdfaaavfatima");
 		System.out.println(output);
 	}
 	

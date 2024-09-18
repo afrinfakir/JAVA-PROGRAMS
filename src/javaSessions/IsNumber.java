@@ -4,7 +4,7 @@ public class IsNumber {
 
 	public static void main(String[] args) {
 
-		isPhoneNumber("9172755864");
+		isPhoneNumber("9172755864gh");
 		
 	}
 
