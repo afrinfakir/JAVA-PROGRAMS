@@ -21,7 +21,7 @@ public class reverseNumber {
 	}
 
 	public static void main(String[] args) {
-		reversNumber(121234);
+		reversNumber(12121);
 
 	}
 

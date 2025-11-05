@@ -4,7 +4,7 @@ public class RemoveDuplicateFromString {
 
 	public static void main(String[] args) {
 
-		String output=removeDuplicate("aafdfaaavfatima");
+		String output=removeDuplicate("aafdfaaavfatima ereerraA nnnijfdds");
 		System.out.println(output);
 	}
 	
@@ -12,7 +12,7 @@ public class RemoveDuplicateFromString {
 
 		int length = str.length();
 		String result="";
-		//int count[]=new int [256];
+		//int count[]=new int[256];
 
 		for(int i=0;i<length;i++){
 

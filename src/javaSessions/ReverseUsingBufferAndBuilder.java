@@ -7,11 +7,11 @@ public class ReverseUsingBufferAndBuilder {
 		String originalString = "Hello World";
 
         // Create a StringBuilder object with the original string
-        //StringBuilder sb = new StringBuilder(originalString);
+        StringBuilder sb = new StringBuilder(originalString);
 		StringBuffer sf = new StringBuffer(originalString);
 
         // Use the reverse() method of StringBuilder
-        //sb.reverse();
+        sb.reverse();
 		sf.reverse();
 
         // Convert the StringBuilder back to a String and print the result
@@ -21,6 +21,8 @@ public class ReverseUsingBufferAndBuilder {
         System.out.println("Original String: " + originalString);
         System.out.println("Reversed String: " + reversedString);
         System.out.println(sf.reverse());
+        System.out.println(sb.reverse());
+
 
 	}
 

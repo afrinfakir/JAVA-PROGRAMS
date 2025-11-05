@@ -8,7 +8,11 @@ public class SecondHighestNumber2 {
 		int a[]={1,2,5,6,3,2};  
 		int b[]={44,-66,99,-77,33,22,55};  
 		System.out.println("Second Largest: "+getSecondLargest(a,6));  
-		System.out.println("Second Largest: "+getSecondLargest(b,7));  
+		System.out.println("Second Largest: "+getSecondLargest(b,7));
+		String aa="abc";
+		String bb = new String("abc");
+		System.out.println(aa==bb);
+		System.out.println(aa.equals(bb));
 		
 	}
 	
