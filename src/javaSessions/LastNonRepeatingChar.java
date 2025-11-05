@@ -17,7 +17,6 @@ public class LastNonRepeatingChar {
 			char ch = str.charAt(i);
 			if (count[ch] == 1) {
 				System.out.println("Last non repeating character:" + ch);
-
 				break;
 			}
 		}
